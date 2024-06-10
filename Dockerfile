@@ -7,7 +7,7 @@ WORKDIR /app
 # 将当前目录下的所有文件复制到工作目录
 COPY . .
 
-EXPOSE 2800
+EXPOSE 28000
 
 # 更新系统并安装 curl、gawk 和 sed 工具，为 index.js 文件添加执行权限，然后安装应用的依赖项
 RUN apt-get update && \
